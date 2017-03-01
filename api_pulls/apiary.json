@@ -1,0 +1,50 @@
+{
+    "id" "1111111",
+    "campaign_type": "scheduled",
+    "campaign_name": "Your campaign name",
+    "mail_type": "mail",
+    "recipient_type": "single",
+    "recipients": [
+        {
+            "recipient_id": "",
+            "list_type": "upload",
+            "list_id": "123",
+            "recipient_count": "435"
+        }
+    ],
+    "template": [
+        {
+            "template_id": "11wac8a65e64c994c4416d8u0",
+            "template_name": "Big 15% off sale"
+        }
+    ],
+    "settings": [
+        {
+            "from_address": [
+                {
+                    "id": "11111111111111",
+                    "name": "Joe Smith",
+                    "company": "Acme Corp",
+                    "phone": "3135551111",
+                    "email": "joe@acme.com",
+                    "address_1": "123 Main St",
+                    "address_2": "Apt 2",
+                    "address_city": "Boston",
+                    "address_state": "MA",
+                    "address_zip": "555555",
+                    "address_country": "US",
+                    "date_created": "2015-04-27T18:52:44.725Z"
+                }
+            ],
+            "scheduled_send_date": "2017-05-06",
+            "scheduled_send_time": "T18:52:44.725Z",
+            "actual_send_datetime": "2015-04-27T18:52:44.725Z",
+            "postage_type": "Standard",
+            "order_id": "aaaaaaaaa"
+        },
+        "date_created": "2015-09-15T14:38:16+00:00",
+        "last_changed": "2015-09-15T14:38:16+00:00",
+        "created_by": "",
+        "modified_by": ""
+    ]
+}
