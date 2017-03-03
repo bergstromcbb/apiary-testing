@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="style.css" type="text/css">
     <script src="../build/react.js"></script>
     <script src="../build/react-dom.js"></script>
     <script src="../build/browser.min.js"></script>
@@ -37,20 +38,20 @@ var RepoList = React.createClass({
       var categoryList = Categories.map(function (category, index) {
         return (
           <div>
-            <p key={index}>{category.name}<img src={category.image}/> <br/> {category.status}</p>
-            <ol>
+            <h2 key={index}>{category.name}</h2><img className="picture" src={category.image}/> <br/> status: {category.status}
+            <ul>
             {category.subcategories.map(function (subcategory, index2) {
               return (
                   <li key={index2}>{subcategory.name}</li>
               );
             })}
-          </ol></div>
+          </ul></div>
         );
 
       });
       return (
         <main>
-          <h1>Most Popular JavaScript Projects in Github</h1>
+          <h1 className="title">All our beautiful templates</h1>
           {categoryList}
         </main>
       );
